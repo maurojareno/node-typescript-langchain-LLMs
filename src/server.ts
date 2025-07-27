@@ -1,11 +1,11 @@
 import express from "express";
-//import chatRouter from "./features/chat/api/chatController";
+import chatRouter from "./features/chat/presentation/chatController";
 import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
 app.use(express.json());
-// app.use("/chat", chatRouter);
+app.use("/chat", chatRouter);
 
 app.get("/api/health", (req, res) => {
   res.status(200).json({ status: "ok" });
