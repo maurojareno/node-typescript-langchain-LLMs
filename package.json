@@ -1,0 +1,32 @@
+{
+  "name": "node-typescript-langchain-llms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.6",
+    "express": "^4.19.2",
+    "langchain": "^0.2.18",
+    "openai": "^4.50.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsx": "^4.20.3",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurojareno/node-typescript-langchain-LLMs.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/maurojareno/node-typescript-langchain-LLMs/issues"
+  },
+  "homepage": "https://github.com/maurojareno/node-typescript-langchain-LLMs#readme"
+}
